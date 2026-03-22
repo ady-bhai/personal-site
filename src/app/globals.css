@@ -12,8 +12,10 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  /* Add Charter font with fallbacks */
-  font-family: "Charter";
+  /* Charter first when installed (original local look on Mac). Embedded Source Serif 4
+     from layout.tsx (--font-body-serif) matches that editorial serif on Vercel & other OSes. */
+  font-family: "Charter", var(--font-body-serif), Georgia, "Palatino Linotype",
+    "Book Antiqua", Palatino, serif;
   font-size: 1.1rem;
 }
 
