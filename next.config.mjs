@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
-    return [{ source: "/work", destination: "/projects", permanent: true }];
+    return [
+      { source: "/work", destination: "/projects", permanent: true },
+      {
+        source: "/resume",
+        destination:
+          "https://drive.google.com/file/d/1eqYPVnBpl7qqDlN32IkAKNUB1UpcsSCb/preview",
+        permanent: false,
+      },
+    ];
   },
   images: {
     remotePatterns: [

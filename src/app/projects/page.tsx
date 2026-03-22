@@ -155,7 +155,17 @@ export default function ProjectsPage() {
         Fun
       </h2>
       <ul className="list-disc pl-6 space-y-2">
-        <li>Fibron (link and blurb to add).</li>
+        <li>
+          <a
+            className="hyperlink"
+            href="https://www.youtube.com/watch?v=KdsVv3W2QqA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fibron
+          </a>
+          .
+        </li>
         <li>
           <a
             className="hyperlink"
@@ -167,7 +177,17 @@ export default function ProjectsPage() {
           </a>
           .
         </li>
-        <li>Math modeling (write-up to add).</li>
+        <li>
+          <a
+            className="hyperlink"
+            href="https://drive.google.com/file/d/1hgcZrvOGD6_IOXk0tUziH7EhSKms1L3z/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Math modeling
+          </a>
+          .
+        </li>
       </ul>
     </div>
   );

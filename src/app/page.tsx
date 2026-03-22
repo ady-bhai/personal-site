@@ -67,7 +67,7 @@ export default function Home() {
         edging my major declaration. I&apos;m currently on{" "}
         <a
           className="hyperlink"
-          href="https://adymehta.substack.com/p/heres-to-the-gaps"
+          href="https://substack.com/@adymehta"
           target="_blank"
           rel="noopener noreferrer"
         >

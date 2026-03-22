@@ -105,3 +105,36 @@ I enjoy being a generalist. I strongly believe good field-building can come from
 - Fibron (link and blurb to add).
 - [DocuBridge](https://www.docubridge.ai/).
 - Math modeling (write-up to add).
+
+---
+
+## Archived Writing page (`src/app/writing/page.tsx`)
+
+*Removed / replaced on **2026-03-22** when the live Writing page was reduced to a single Substack profile link.*
+
+### Page intro (former)
+
+- Heading: **Writing**
+- Line: “I publish essays at [jasminexli.substack.com](https://jasminexli.substack.com/)!”
+
+### Substack feed (client-side RSS)
+
+- RSS feed URL used with rss2json: `https://jasminexli.substack.com/feed`
+- Up to 6 posts rendered in a card grid with thumbnails, titles, dates, descriptions.
+
+### Other Writing (section)
+
+1. [Space Odyssey Made Real? Interrogating the Moral Bounds of the AI-Human Friendship through Aristotelian and Confucian Frameworks](https://docs.google.com/document/d/1p1BU_7JEn5M6hRSnRA9W_WbzVTuEC7bu/edit?usp=drive_link&ouid=113458154265672469537&rtpof=true&sd=true) — *Dec 17, 2023 | Cornell James E. Rice, Jr., Prize*
+
+2. [Finding healing in Chinese medicine](https://cornellsun.com/2024/09/10/old-remedies-new-perspectives-finding-healing-in-chinese-medicine/) — *Sep 10, 2024 | Cornell Daily Sun*
+
+3. [A Cautionary Tale: Internally Conflicting Panoptic Values and Self-Destruction in Black Swan](https://docs.google.com/document/d/1FZY9LtMMEu3LzgRd2g2E-NwNGsciOwK8/edit?usp=drive_link&ouid=113458154265672469537&rtpof=true&sd=true) — *Sep 10, 2024 | Stanford De Novo*
+
+---
+
+## Archived Resume page (`src/app/resume/page.tsx`)
+
+*Removed from the nav on **2026-03-22**; this was the embedded resume view. The `/resume` route now redirects to Google Drive in `next.config.mjs`.*
+
+- Full-page iframe preview URL:  
+  `https://drive.google.com/file/d/1eqYPVnBpl7qqDlN32IkAKNUB1UpcsSCb/preview`

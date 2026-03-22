@@ -20,11 +20,6 @@ const Navbar = () => {
             writing
           </Link>
         </li>
-        <li>
-          <Link href="/resume" className="nav-hyperlink">
-            resume
-          </Link>
-        </li>
       </ul>
     </nav>
   );
