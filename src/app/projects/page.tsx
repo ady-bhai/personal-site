@@ -106,7 +106,18 @@ export default function ProjectsPage() {
           </a>
           .
         </li>
-        <li>Hosted OASIS 6.0 (link to add).</li>
+        <li>
+          Hosted{" "}
+          <a
+            className="hyperlink"
+            href="https://kairos-project.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OASIS 6.0
+          </a>
+          .
+        </li>
       </ul>
 
       <h2 className="text-xl sm:text-2xl font-bold mt-6 sm:mt-8 mb-3 sm:mb-4">
@@ -114,6 +125,7 @@ export default function ProjectsPage() {
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
+          Lead generation for 250+ stakeholders at{" "}
           <a
             className="hyperlink"
             href="https://civai.org/"
@@ -122,10 +134,10 @@ export default function ProjectsPage() {
           >
             CivAI
           </a>
-          {" "}
-          — outreach and university programming (exact resume line to refine).
+          .
         </li>
         <li>
+          Doubled policy briefing sign ups in 48 hours for{" "}
           <a
             className="hyperlink"
             href="https://palisaderesearch.org/"
@@ -134,8 +146,7 @@ export default function ProjectsPage() {
           >
             Palisade Research
           </a>
-          {" "}
-          — outreach and ops support (exact resume line to refine).
+          .
         </li>
         <li>
           Writing on Goodfire for{" "}
