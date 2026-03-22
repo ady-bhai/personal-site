@@ -149,7 +149,16 @@ export default function ProjectsPage() {
           .
         </li>
         <li>
-          Writing on Goodfire for{" "}
+          Wrote{" "}
+          <a
+            className="hyperlink"
+            href="https://research.contrary.com/company/goodfire"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            10K+ words
+          </a>{" "}
+          on Goodfire for{" "}
           <a
             className="hyperlink"
             href="https://contrary.com/"
@@ -158,7 +167,7 @@ export default function ProjectsPage() {
           >
             Contrary
           </a>{" "}
-          (piece URL to add when live).
+          VC.
         </li>
       </ul>
 
@@ -167,37 +176,40 @@ export default function ProjectsPage() {
       </h2>
       <ul className="list-disc pl-6 space-y-2">
         <li>
+          Tried making a{" "}
           <a
             className="hyperlink"
-            href="https://www.youtube.com/watch?v=KdsVv3W2QqA"
+            href="https://conrad.spacecenter.org/challenge-alumni/meet-the-alc-board/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fibron
-          </a>
-          .
+            space parachute
+          </a>{" "}
+          for Mars rovers out of plants.
         </li>
         <li>
+          Helped build{" "}
           <a
             className="hyperlink"
             href="https://www.docubridge.ai/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            DocuBridge
+            AI for finance bros
           </a>
-          .
+          , building Excel-native data entry automations.
         </li>
         <li>
+          Modeled{" "}
           <a
             className="hyperlink"
             href="https://drive.google.com/file/d/1hgcZrvOGD6_IOXk0tUziH7EhSKms1L3z/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Math modeling
-          </a>
-          .
+            infectious Guatemalan flies, linear agriculture systems, and honeybee lifespans
+          </a>{" "}
+          with math.
         </li>
       </ul>
     </div>
