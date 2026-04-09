@@ -23,6 +23,14 @@ export default function Writing() {
             How do we close the Junior {'<>'} Senior talent gap™?
           </Link>
         </li>
+        <li>
+          <Link
+            href="/writing/introducing-career-workshops-ai-safety-grantmaking"
+            className="hyperlink font-normal"
+          >
+            Introducing Career Workshops for AI Safety Grantmaking
+          </Link>
+        </li>
       </ul>
 
       <h2 className="text-lg sm:text-xl font-bold mt-8 mb-3 sm:mt-10 sm:mb-4">
