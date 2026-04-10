@@ -17,6 +17,14 @@ export default function Writing() {
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
           <Link
+            href="/writing/consider-ai-safety-grantmaking-early-career"
+            className="hyperlink font-normal"
+          >
+            Consider AI safety grantmaking, even early in your career
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/writing/one-on-one-trajectory"
             className="hyperlink font-normal"
           >
