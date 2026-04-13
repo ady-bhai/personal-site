@@ -17,6 +17,14 @@ export default function Writing() {
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
           <Link
+            href="/writing/nexus-ai-creative-destruction"
+            className="hyperlink font-normal"
+          >
+            Nexus: How AI and Creative Destruction are Changing the World
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/writing/consider-ai-safety-grantmaking-early-career"
             className="hyperlink font-normal"
           >
