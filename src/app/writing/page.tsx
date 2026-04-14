@@ -17,6 +17,14 @@ export default function Writing() {
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
           <Link
+            href="/writing/export-controls-ai-safety"
+            className="hyperlink font-normal"
+          >
+            What Export Controls Actually Buy AI Safety
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/writing/nexus-ai-creative-destruction"
             className="hyperlink font-normal"
           >
