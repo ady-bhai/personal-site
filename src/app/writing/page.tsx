@@ -17,6 +17,14 @@ export default function Writing() {
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
           <Link
+            href="/writing/open-weights-power-and-catastrophic-risk"
+            className="hyperlink font-normal"
+          >
+            Open Weights, Power, and Catastrophic Risk
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/writing/export-controls-ai-safety"
             className="hyperlink font-normal"
           >
