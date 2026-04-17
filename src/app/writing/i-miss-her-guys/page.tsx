@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "I miss her guys · Ady Mehta",
+  title: "Palentines Day Pt 1 · Ady Mehta",
   description: "A personal reflection on friendship and heartbreak.",
 };
 
@@ -37,12 +37,12 @@ export default function IMissHerGuysPost() {
       </p>
 
       <h1 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 leading-tight">
-        I miss her guys
+        Palentines Day Pt 1
       </h1>
 
-      <pre className="whitespace-pre-wrap font-inherit text-[1.05rem] sm:text-[1.1rem] leading-relaxed">
+      <div className="whitespace-pre-wrap text-[1.05rem] sm:text-[1.1rem] leading-relaxed">
         {postContent}
-      </pre>
+      </div>
     </article>
   );
 }

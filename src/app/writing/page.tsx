@@ -17,7 +17,7 @@ export default function Writing() {
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
           <Link href="/writing/i-miss-her-guys" className="hyperlink font-normal">
-            I miss her guys
+            Palentines Day Pt 1
           </Link>
         </li>
         <li>
