@@ -16,6 +16,11 @@ export default function Writing() {
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
+          <Link href="/writing/i-miss-her-guys" className="hyperlink font-normal">
+            I miss her guys
+          </Link>
+        </li>
+        <li>
           <Link
             href="/writing/open-weights-power-and-catastrophic-risk"
             className="hyperlink font-normal"
