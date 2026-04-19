@@ -16,6 +16,14 @@ export default function Writing() {
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
         <li>
+          <Link
+            href="/writing/agent-ids-for-singapore"
+            className="hyperlink font-normal"
+          >
+            Agent IDs for Singapore
+          </Link>
+        </li>
+        <li>
           <Link href="/writing/i-miss-her-guys" className="hyperlink font-normal">
             Palentines Day Pt 1
           </Link>
