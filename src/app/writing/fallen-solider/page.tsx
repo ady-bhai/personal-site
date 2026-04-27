@@ -26,6 +26,8 @@ And I don't know, I feel like I'm just trying to take opportunities left and rig
 And I don't know, overall, sometimes today I'm just asking myself, is all this even worth it? I feel like I'm perpetually in this race to just grab onto something, and I don't even have time to think through anything myself. It's a really shitty, bad feeling of being overwhelmed. Kind of feel frozen from the inside, where sometimes I just stare into these research documents and nothing clicks to me at all. And to that end, I guess acknowledging it makes me feel good in the moment, but the problem is reoccurring. So the question is how to solve the problem in the first place.
 I don't know. This post is probably going to be hidden from the public dashboard because in part, I guess I'm just ashamed that things have come to this level, where a sort of random rant has to count for today's post. Nothing more thoughtful of substance. But if anyone does end up reading this post, then honestly, I could really use some advice on how to just figure things out. How do I just pick one impactful project, find someone who's willing to support it, and then go from there and not have to worry about the rest? Yeah, I just feel like I'm being drawn way too thin right now. And I just hope that the last three days of Inkhaven posts are more meaningful for me than what I'm currently putting out.`;
 
+const paragraphs = postContent.split("\n").filter((paragraph) => paragraph.length > 0);
+
 export default function FallenSoliderPost() {
   return (
     <article className="py-6 sm:py-8">
@@ -39,8 +41,12 @@ export default function FallenSoliderPost() {
         fallen solider
       </h1>
 
-      <div className="whitespace-pre-wrap text-[1.05rem] sm:text-[1.1rem] leading-relaxed">
-        {postContent}
+      <div className="text-[1.05rem] sm:text-[1.1rem] leading-relaxed">
+        {paragraphs.map((paragraph) => (
+          <p key={paragraph} className="mb-5 whitespace-pre-wrap last:mb-0">
+            {paragraph}
+          </p>
+        ))}
       </div>
     </article>
   );
