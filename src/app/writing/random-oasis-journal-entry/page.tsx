@@ -6,9 +6,7 @@ export const metadata: Metadata = {
   description: "A journal entry from OASIS Day 1.",
 };
 
-const postContent = `1/24
-
-I'm writing this at home, battling the most viral of demons. The heart is warm, as is the thermometer. It's also full, as are my tissues 😂
+const postContent = `I'm writing this at home, battling the most viral of demons. The heart is warm, as is the thermometer. It's also full, as are my tissues 😂
 
 At OASIS Day 1, we ran simulations to flag blindspots and to ensure that each session and task was delegated to an organizer.
 
@@ -39,6 +37,8 @@ Instead of making attendees feel like they need OASIS, our goal should be a gent
 There's a sense of guiding light or north star I feel at OASIS too. Words can't describe how it catalyzed my recovery from depression. In Hinduism, there's a concept of dharma, which is duty. I want to give back to the community and honor the past organizers by building off their hard work. I feel like I stand on their shoulders. I don't want to let the chance Neav's taking on me go in vain.
 
 I also make a callout to someone in the seats as part of a story, to let the attendees know that we're in the same boat. Shoutout, goat
+
+to be continued soon
 `;
 
 export default function RandomOasisJournalEntryPost() {
