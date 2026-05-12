@@ -75,13 +75,20 @@ export default function Home() {
       </p>
       <p className="mb-4">
         Previously, I conducted research on AI Automation, AI Dividend Funds,
-        and AI Wellbeing. Most recently, I designed IDs for Agents. I attended
-        UC Berkeley.
+        and AI Wellbeing. Most recently, I designed IDs for Agents.
       </p>
       <p className="mb-4">
-        My retirement dream is to be a kindergarten teacher. If you&apos;re up
-        to play spikeball, watch the sunset or learn guitar together, hearing
-        from you would make my day.
+        Hearing from you will always make my day. You can always reach out on
+        Signal (
+        <a
+          className="hyperlink"
+          href="https://signal.me/#u/adymehta.74"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @adymehta.74
+        </a>
+        ) anytime.
       </p>
       {/* Photo Carousel */}
       <div className="mt-4 sm:mt-6">
