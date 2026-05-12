@@ -61,7 +61,18 @@ export default function Home() {
         Ady Mehta
       </h1>
       <p className="mb-4">Hello! I&apos;m Ady.</p>
-      <p className="mb-4">I&apos;m an incoming Tarbell Fellow.</p>
+      <p className="mb-4">
+        I&apos;m an incoming{" "}
+        <a
+          className="hyperlink"
+          href="https://www.tarbellcenter.org/fellowship"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tarbell Fellow
+        </a>
+        .
+      </p>
       <p className="mb-4">
         Previously, I conducted research on AI Automation, AI Dividend Funds,
         and AI Wellbeing. Most recently, I designed IDs for Agents.
