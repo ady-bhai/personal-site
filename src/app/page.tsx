@@ -75,7 +75,8 @@ export default function Home() {
       </p>
       <p className="mb-4">
         Previously, I conducted research on AI Automation, AI Dividend Funds,
-        and AI Wellbeing. Most recently, I designed IDs for Agents.
+        and AI Wellbeing. Most recently, I designed IDs for Agents. I attended
+        UC Berkeley.
       </p>
       <p className="mb-4">
         My retirement dream is to be a kindergarten teacher. If you&apos;re up
