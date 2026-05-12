@@ -62,7 +62,7 @@ export default function Home() {
       </h1>
       <p className="mb-4">Hello! I&apos;m Ady.</p>
       <p className="mb-4">
-        I&apos;m an incoming{" "}
+        This year, I&apos;ll be doing AI Journalism. I&apos;m an incoming{" "}
         <a
           className="hyperlink"
           href="https://www.tarbellcenter.org/fellowship"
