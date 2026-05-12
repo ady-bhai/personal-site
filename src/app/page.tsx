@@ -61,25 +61,17 @@ export default function Home() {
         Ady Mehta
       </h1>
       <p className="mb-4">Hello! I&apos;m Ady.</p>
-      <p>
-        I&apos;m an incoming Tarbell Fellow. Previously, I attended UC
-        Berkeley, studying a mix of CS, Philosophy, Economics & AI Policy.
+      <p className="mb-4">I&apos;m an incoming Tarbell Fellow.</p>
+      <p className="mb-4">
+        Previously, I evaluated AI Job Automation, proposed an AI Dividend Fund,
+        and designed prototypes for ID&apos;ing Agents. I attended UC Berkeley,
+        studying a mix of CS, Economics & AI Policy.
       </p>
-      <br />
-      <div className="space-y-3">
-        {/*
-          <p>Currently:</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Building Agent ID Proof of Concepts for Singapore</li>
-            <li>Introducing an AI Dividend Fund bill to California</li>
-          </ul>
-        */}
-        <p>
-          My retirement dream is to be a kindergarten teacher. If you&apos;re up
-          to play spikeball, watch the sunset or learn guitar together, hearing
-          from you would make my day.
-        </p>
-      </div>
+      <p className="mb-4">
+        My retirement dream is to be a kindergarten teacher. If you&apos;re up
+        to play spikeball, watch the sunset or learn guitar together, hearing
+        from you would make my day.
+      </p>
       {/* Photo Carousel */}
       <div className="mt-4 sm:mt-6">
         <div

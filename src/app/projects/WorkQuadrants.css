@@ -1,29 +1,60 @@
 .quadrant-card {
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 0.75rem;
-  padding: 0.75rem 0.875rem;
+  padding: 1.25rem 1rem;
   background-color: rgba(255, 255, 255, 0.4);
   transition: border-color 0.15s ease, background-color 0.15s ease,
     box-shadow 0.15s ease;
-  min-height: 3.5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 640px) {
   .quadrant-card {
-    padding: 1rem 1.25rem;
-    min-height: 4rem;
+    padding: 1.5rem 1.35rem;
   }
+}
+
+/* Collapsed: substantial tiles; title centered in the cell. */
+.quadrant-card:not(.is-open) {
+  justify-content: center;
+  min-height: clamp(7.25rem, 28vw, 10.5rem);
+}
+
+@media (min-width: 640px) {
+  .quadrant-card:not(.is-open) {
+    min-height: clamp(9rem, 22vw, 12rem);
+  }
+}
+
+.quadrant-card:not(.is-open) .quadrant-header {
+  justify-content: center;
+  text-align: center;
+}
+
+.quadrant-card:not(.is-open) .quadrant-title {
+  text-align: center;
+}
+
+.quadrant-card.is-open {
+  justify-content: flex-start;
+  min-height: auto;
+  border-color: #6ab04c;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.quadrant-card.is-open .quadrant-header {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.quadrant-card.is-open .quadrant-title {
+  text-align: left;
 }
 
 .quadrant-card:hover {
   border-color: #6ab04c;
-}
-
-.quadrant-card.is-open {
-  border-color: #6ab04c;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .quadrant-header {
@@ -47,15 +78,15 @@
 }
 
 .quadrant-title {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
   transition: color 0.15s ease;
 }
 
 @media (min-width: 640px) {
   .quadrant-title {
-    font-size: 1.125rem;
+    font-size: 1.3125rem;
   }
 }
 

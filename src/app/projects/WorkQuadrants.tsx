@@ -253,7 +253,7 @@ export default function WorkQuadrants() {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-2.5 sm:gap-4 md:gap-5">
+    <div className="work-quadrants-grid grid w-full grid-cols-2 gap-3 sm:gap-5 md:gap-6">
       {QUADRANTS.map((q) => {
         const isOpen = openId === q.id;
         const panelId = `quadrant-panel-${q.id}`;
