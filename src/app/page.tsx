@@ -78,8 +78,7 @@ export default function Home() {
         and AI Wellbeing. Most recently, I designed IDs for Agents.
       </p>
       <p className="mb-4">
-        Hearing from you will always make my day. You can always reach out on
-        Signal (
+        Hearing from you will always make my day. You can reach out on Signal (
         <a
           className="hyperlink"
           href="https://signal.me/#u/adymehta.74"
