@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F4F8F2] text-black p-4 sm:p-6 mt-6 sm:mt-10">
+    <footer className="bg-[#F4F8F2] text-black p-4 sm:p-6 mt-4 sm:mt-6">
       <div className="max-w-[720px] mx-auto px-4">
         <hr className="border-t border-gray-300 mb-4" />{" "}
         {/* Horizontal separator */}

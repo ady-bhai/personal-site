@@ -33,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sourceSerif.variable} antialiased`}>
-        <div className="flex flex-col min-h-screen items-center justify-center bg-background">
+        <div className="flex min-h-screen flex-col items-center justify-start bg-background">
           <Navbar />
-          <main className="flex-grow px-4 sm:px-6 md:px-8 max-w-[720px] mx-auto">
+          <main className="mx-auto w-full max-w-[720px] px-4 sm:px-6 md:px-8">
             {children}
           </main>
         </div>

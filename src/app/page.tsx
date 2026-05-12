@@ -63,9 +63,8 @@ export default function Home() {
       <p className="mb-4">Hello! I&apos;m Ady.</p>
       <p className="mb-4">I&apos;m an incoming Tarbell Fellow.</p>
       <p className="mb-4">
-        Previously, I evaluated AI Job Automation, proposed an AI Dividend Fund,
-        and designed prototypes for ID&apos;ing Agents. I attended UC Berkeley,
-        studying a mix of CS, Economics & AI Policy.
+        Previously, I conducted research on AI Automation, AI Dividend Funds,
+        and AI Wellbeing. Most recently, I designed IDs for Agents.
       </p>
       <p className="mb-4">
         My retirement dream is to be a kindergarten teacher. If you&apos;re up
