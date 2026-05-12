@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import LinkPreview from "./LinkPreview";
 import "./WorkQuadrants.css";
 
 type Quadrant = {
@@ -19,10 +20,9 @@ const QUADRANTS: Quadrant[] = [
     id: "research",
     title: "Research",
     headerTooltip: "AI safety, evals, and governance research.",
-    ordered: true,
     items: [
       <>
-        April &apos;26:{" "}
+        Build evaluations for{" "}
         <a
           className="hyperlink"
           href="https://www.ai-wellbeing.org/"
@@ -43,7 +43,7 @@ const QUADRANTS: Quadrant[] = [
         .
       </>,
       <>
-        Feb &apos;26:{" "}
+        Designed{" "}
         <a
           className="hyperlink"
           href="https://agentids-sash.github.io/agentids/"
@@ -52,7 +52,7 @@ const QUADRANTS: Quadrant[] = [
         >
           Agent IDs
         </a>{" "}
-        at the{" "}
+        prototypes at the{" "}
         <a
           className="hyperlink"
           href="https://erafellowship.org/"
@@ -64,7 +64,7 @@ const QUADRANTS: Quadrant[] = [
         .
       </>,
       <>
-        Dec &apos;25:{" "}
+        Proposed{" "}
         <a
           className="hyperlink"
           href="https://www.dailycal.org/news/campus/uc-institute-hosts-symposium-to-discuss-ai-policy/article_039b4c0b-cd15-4383-8903-4c20273154f1.html"
@@ -85,7 +85,7 @@ const QUADRANTS: Quadrant[] = [
         .
       </>,
       <>
-        Oct &apos;25:{" "}
+        Measured{" "}
         <a
           className="hyperlink"
           href="https://www.remotelabor.ai/"
@@ -112,40 +112,45 @@ const QUADRANTS: Quadrant[] = [
     title: "Field-building",
     items: [
       <>
-        Hosted{" "}
-        <a
-          className="hyperlink"
-          href="https://www.linkedin.com/posts/aditya-mehta-7892311a2_last-weekend-we-organized-ibar-the-intercollegiate-activity-7321214998842662913-P6aO/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          IBAR
-        </a>
-        .
-      </>,
-      <>
-        Hosted the SF{" "}
-        <a
-          className="hyperlink"
-          href="https://builddefenses.ai/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          def/acc hackathon
-        </a>
-        .
-      </>,
-      <>
-        Hosted{" "}
-        <a
-          className="hyperlink"
+        Lead{" "}
+        <LinkPreview
           href="https://kairos-project.org/"
-          target="_blank"
-          rel="noopener noreferrer"
+          images={["/assets/work/field-building/oasis-1.png"]}
+          alt="OASIS 6.0"
         >
           OASIS 6.0
-        </a>
-        .
+        </LinkPreview>
+        : a 3-day workshop in Constellation for 36 uni-group field-builders.
+      </>,
+      <>
+        Hosted SF{" "}
+        <LinkPreview
+          href="https://builddefenses.ai/"
+          images={[
+            "/assets/work/field-building/defacc-1.png",
+            "/assets/work/field-building/defacc-2.png",
+            "/assets/work/field-building/defacc-3.png",
+          ]}
+          alt="SF def/acc hackathon"
+        >
+          def/acc hackathon
+        </LinkPreview>{" "}
+        with BlueDot. Biosec, Privacy Infra, Control tracks.
+      </>,
+      <>
+        Hosted{" "}
+        <LinkPreview
+          href="https://www.linkedin.com/posts/aditya-mehta-7892311a2_last-weekend-we-organized-ibar-the-intercollegiate-activity-7321214998842662913-P6aO/"
+          images={[
+            "/assets/work/field-building/ibar-1.png",
+            "/assets/work/field-building/ibar-2.png",
+          ]}
+          alt="IBAR retreat"
+        >
+          IBAR
+        </LinkPreview>
+        , a 55-person retreat for Californian AI Safety students. Managed
+        $30K in funds.
       </>,
     ],
   },

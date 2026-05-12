@@ -131,3 +131,102 @@
     padding-left: 1.75rem;
   }
 }
+
+/* ---------- Link hover preview (Field-building images) ---------- */
+
+.link-preview {
+  position: relative;
+  display: inline-block;
+}
+
+.link-preview-stack {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  width: 260px;
+  height: 160px;
+  transform: translate(-50%, 4px) scale(0.96);
+  transform-origin: bottom center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  z-index: 20;
+}
+
+.link-preview-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 130px;
+  margin: -65px 0 0 -100px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: #f4f8f2;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.25),
+    0 4px 8px -4px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease;
+  will-change: transform;
+}
+
+/* Fanned layout: card 0 left, card 1 center (top), card 2 right */
+.link-preview-card--0 {
+  z-index: 1;
+  transform: rotate(-7deg) translate(-30px, 6px);
+}
+
+.link-preview-card--1 {
+  z-index: 3;
+  transform: rotate(0deg) translate(0, 0);
+}
+
+.link-preview-card--2 {
+  z-index: 2;
+  transform: rotate(7deg) translate(30px, 6px);
+}
+
+/* Single image: just sit centered, no rotation. */
+.link-preview-stack--1 .link-preview-card--0 {
+  transform: rotate(0deg) translate(0, 0);
+  z-index: 3;
+}
+
+/* Two images: gentle two-card fan. */
+.link-preview-stack--2 .link-preview-card--0 {
+  transform: rotate(-5deg) translate(-22px, 4px);
+}
+
+.link-preview-stack--2 .link-preview-card--1 {
+  transform: rotate(5deg) translate(22px, 4px);
+  z-index: 3;
+}
+
+.link-preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link-preview:hover .link-preview-stack,
+  .link-preview:focus-within .link-preview-stack {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .link-preview-stack {
+    width: 220px;
+    height: 140px;
+  }
+
+  .link-preview-card {
+    width: 170px;
+    height: 110px;
+    margin: -55px 0 0 -85px;
+  }
+}

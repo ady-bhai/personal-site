@@ -15,11 +15,13 @@ const Navbar = () => {
             work
           </Link>
         </li>
+        {/*
         <li>
           <Link href="/writing" className="nav-hyperlink">
             writing
           </Link>
         </li>
+        */}
       </ul>
     </nav>
   );
