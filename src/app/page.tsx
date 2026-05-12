@@ -62,40 +62,26 @@ export default function Home() {
       </h1>
       <p className="mb-4">Hello! I&apos;m Ady.</p>
       <p>
-        I&apos;m an undergrad at UC Berkeley. I stumble around in CS,
-        Philosophy, Economics & law school classes, {" "}
-        edging my major declaration. I&apos;m currently on{" "}
-        <a
-          className="hyperlink"
-          href="https://substack.com/@adymehta"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          leave
-        </a>{" "}
-        to sidequest. 
+        I&apos;m an incoming Tarbell Fellow. Previously, I attended UC
+        Berkeley, studying a mix of CS, Philosophy, Economics & AI Policy.
       </p>
       <br />
       <div className="space-y-3">
-        <p>Currently:</p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Building Agent ID Proof of Concepts for Singapore</li>
-          <li>Introducing an AI Dividend Fund bill to California</li>
-        </ul>
+        {/*
+          <p>Currently:</p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Building Agent ID Proof of Concepts for Singapore</li>
+            <li>Introducing an AI Dividend Fund bill to California</li>
+          </ul>
+        */}
         <p>
-          I find the most fulfillment from connecting with people. I&apos;m a
-          field-builder at heart.
+          My retirement dream is to be a kindergarten teacher. If you&apos;re up
+          to play spikeball, watch the sunset or learn guitar together, hearing
+          from you would make my day.
         </p>
       </div>
-      <br />
-      <p>
-        My retirement dream is to be a kindergarten teacher. If you&apos;re up
-        to play spikeball, watch the sunset or learn guitar together,{" "}
-        <span className="italic">hearing from you would make my day.</span>
-      </p>
-
       {/* Photo Carousel */}
-      <div className="mt-8 sm:mt-12">
+      <div className="mt-4 sm:mt-6">
         <div
           className="carousel-container"
           ref={carouselRef}

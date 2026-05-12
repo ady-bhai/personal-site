@@ -12,7 +12,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link href="/projects" className="nav-hyperlink">
-            projects
+            work
           </Link>
         </li>
         <li>
