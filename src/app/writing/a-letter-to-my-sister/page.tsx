@@ -11,7 +11,7 @@ type Paragraph = { text: string; bold?: boolean };
 const paragraphs: Paragraph[] = [
   { text: "Dear Miti," },
   {
-    text: "As you go to college, here's some advice. You might read some of these and think you understand, only to find you need to live them first. Haha, have fun. Other things, you'll reach your own conclusions. Then you can come tell me I was wrong, which I'll happily wait for.",
+    text: "As you go to college, here's some advice. You might read some of these and think you understand, only to find you need to live them first. Haha, have fun. Other things, you'll reach your own conclusions. Then you can come tell me I was wrong; I'll happily wait for it.",
   },
   { text: "Drink tea more than you spill.", bold: true },
   {
@@ -29,24 +29,24 @@ const paragraphs: Paragraph[] = [
   },
   { text: "Distinguish honor from sunk cost.", bold: true },
   {
-    text: "There's honor in sticking something through. You've already done this like a champ. But there's also wisdom in stepping back. If you feel your major isn't right for you, re-evaluate and change course. I know it will feel like the end of the world to have claimed that this college sacrifice was worth what you set out to, and now it's changing but that's a short term hit. You find what you love and become good at it. And then you honor what you feel good about doing, not what you think society or Mumma Papa or I will.",
+    text: "There's honor in sticking something through. You've already done this like a champ. But there's also wisdom in stepping back. If you feel your major isn't right for you, re-evaluate and change course. I know it will feel like the end of the world to have claimed that this college sacrifice was worth what you set out to, and now it's changing, but that's a short-term hit. You find what you love and become good at it. And then you honor what you feel good about doing, not what you think society or Mumma Papa or I will.",
   },
   { text: "It's okay to lie about why you can't eat out.", bold: true },
   {
-    text: "We share the same financial situation, you can take it from me that I've made many excuses on why I can't eat out. Just say you have homework or something; money can be uncomfortable to talk about so it's okay to just be chill about this one.",
+    text: "We share the same financial situation; you can take it from me that I've made many excuses on why I can't eat out. Just say you have homework or something; money can be uncomfortable to talk about, so it's okay to just be chill about this one.",
   },
   {
-    text: "That said, making your own money and eating out with close friends is empowering and liberating and comforting, so make the meals count when you do go. Find a few mom and pop restaurants. Become friends with the owners and offer to distribute flyers or take orders. Bring your friends. These will be the stories you remember.",
+    text: "That said, making your own money and eating out with close friends is empowering and liberating and comforting, so make the meals count when you do go. Find a few mom-and-pop restaurants. Become friends with the owners and offer to distribute flyers or take orders. Bring your friends. These will be the stories you remember.",
   },
-  { text: "Host and cook for others", bold: true },
+  { text: "Host and cook for others.", bold: true },
   {
-    text: "You can always cook. Cook Miti we gotta cook. And perhaps you'll enjoy hosting. You can bring your friends from different worlds together. You'll also be remembered as the person who made that connection. You might find a love for feeding people. You already make such tasty food.",
+    text: "You can always cook. Cook, Miti—we gotta cook. And perhaps you'll enjoy hosting. You can bring your friends from different worlds together. You'll also be remembered as the person who made that connection. You might find a love for feeding people. You already make such tasty food.",
   },
-  { text: "Love yourself as you love others", bold: true },
+  { text: "Love yourself as you love others.", bold: true },
   {
-    text: "You know the classic line Papa keeps telling us. दूस्रून से पहले खुद की जय करें. This can be a chicken-and-egg thing. You need to be love yourself to love others, but loving others is also how you'll learn you'll learn you owe yourself some too. If an inferiority complex creeps in, cut yourself some slack. And let people care for you. Learn to care for others.",
+    text: "You know the classic line Papa keeps telling us. दूस्रून से पहले खुद की जय करें. This can be a chicken-and-egg thing. You need to love yourself to love others, but loving others is also how you'll learn you owe yourself some too. If an inferiority complex creeps in, cut yourself some slack. And let people care for you. Learn to care for others.",
   },
-  { text: "Relationships", bold: true },
+  { text: "Relationships.", bold: true },
   {
     text: "You are never entitled to anyone, and no one is entitled to you. Walk away when things don't feel right. You can always just be transparent, tell the truth, and not complicate things. You deserve your space, and the other person does too.",
   },
@@ -55,10 +55,10 @@ const paragraphs: Paragraph[] = [
   },
   { text: "A lot of the \u201Ccollege rules\u201D are illusions.", bold: true },
   {
-    text: "The parties you \u201Chave to\u201D go to, the spring break trips, the friend group, the clubs you have to join, — these are invisible things social media will make you feel you need to have. And while they have their merits, you can live also live in solo mode and be contempt with the things that make you happy. Just remember to look inside and evaluate how something makes you feel instead of something that you need to reach for.",
+    text: "The parties you \u201Chave to\u201D go to, the spring break trips, the friend group, the clubs you have to join—these are invisible things social media will make you feel you need to have. And while they have their merits, you can also live in solo mode and be content with the things that make you happy. Just remember to look inside and evaluate how something makes you feel instead of something that you need to reach for.",
   },
   {
-    text: "Your may also think your freshman friend group is your squad forever, and it's okay if you go separate ways. Time and distance will do that. Acquaint yourself with the truth that people come and go, but there are a few people worth staying and fighting for.",
+    text: "You may also think your freshman friend group is your squad forever, and it's okay if you go separate ways. Time and distance will do that. Acquaint yourself with the truth that people come and go, but there are a few people worth staying and fighting for.",
   },
   { text: "Call Dadu Dadi and Nanu Nani", bold: true },
   { text: "Call Mumma Papa", bold: true },
