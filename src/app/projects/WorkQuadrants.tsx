@@ -64,16 +64,7 @@ const QUADRANTS: Quadrant[] = [
         .
       </>,
       <>
-        Proposed{" "}
-        <a
-          className="hyperlink"
-          href="https://www.dailycal.org/news/campus/uc-institute-hosts-symposium-to-discuss-ai-policy/article_039b4c0b-cd15-4383-8903-4c20273154f1.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          AI Dividend Funds
-        </a>{" "}
-        at the{" "}
+        Proposed AI Dividend Funds at the{" "}
         <a
           className="hyperlink"
           href="https://citris-uc.org/"
