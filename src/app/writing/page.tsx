@@ -12,6 +12,37 @@ export default function Writing() {
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Writing</h1>
 
       <h2 className="text-lg sm:text-xl font-bold mt-8 mb-3 sm:mt-10 sm:mb-4">
+        Personal
+      </h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
+        <li>
+          <Link
+            href="/writing/writing-is-a-feeling"
+            className="hyperlink font-normal"
+          >
+            Writing is a Feeling
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/writing/a-letter-to-my-sister"
+            className="hyperlink font-normal"
+          >
+            A Letter To My Sister
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/writing/your-shoulders"
+            className="hyperlink font-normal"
+          >
+            Your Shoulders
+          </Link>
+        </li>
+      </ul>
+
+      {/*
+      <h2 className="text-lg sm:text-xl font-bold mt-8 mb-3 sm:mt-10 sm:mb-4">
         On this site
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
@@ -106,6 +137,7 @@ export default function Writing() {
         </a>
         .
       </p>
+      */}
     </div>
   );
 }
