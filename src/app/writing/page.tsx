@@ -15,6 +15,7 @@ export default function Writing() {
         Personal
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-8 sm:mb-10">
+        {/*
         <li>
           <Link
             href="/writing/writing-is-a-feeling"
@@ -23,6 +24,7 @@ export default function Writing() {
             Writing is a Feeling
           </Link>
         </li>
+        */}
         <li>
           <Link
             href="/writing/a-letter-to-my-sister"
@@ -31,6 +33,7 @@ export default function Writing() {
             A Letter To My Sister
           </Link>
         </li>
+        {/*
         <li>
           <Link
             href="/writing/your-shoulders"
@@ -39,6 +42,7 @@ export default function Writing() {
             Your Shoulders
           </Link>
         </li>
+        */}
       </ul>
 
       {/*
